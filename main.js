@@ -10,7 +10,7 @@ function addJavascriptString(str) {
   node.innerHTML = str;
   document.body.appendChild(node);
 }
-
+ 
 function createNewNode(type, str){
   var node = document.createElement(type);
   node.innerHTML = str;
